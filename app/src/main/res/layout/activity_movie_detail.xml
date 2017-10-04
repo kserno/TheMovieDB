@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_header"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@mipmap/placeholder"/>
+
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="9dp"
+                    android:textSize="28sp"
+                    android:textColor="@color/primary"
+                    tools:text="TKingsman: Zlatý kruh "/>
+
+                <TextView
+                    android:id="@+id/tv_title_original"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:textSize="28sp"
+                    android:textColor="@color/primary"
+                    tools:text="TKingsman: Zlatý kruh "/>
+
+
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/overview"/>
+
+                <TextView
+
+                    android:id="@+id/tv_overview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="Tajnú centrálu Kingsmanov zničil niekto, kto má poriadny arzenál a celý svet sa stáva rukojemníkom ďalšieho šialeného zloducha. Ako inak, že? Kingsmanov čakajú nové úlohy a prekážky, a aj keď im hrdosť káže inak, spoja sa so spriatelenou americkou špionážnou organizáciou trefne pomenovanou Statesman. Konkrétne s agentmi nazývanými Tequila (Channing Tatum), Whiskey (Pedro Pascal), Champagne (Jeff Bridges) a Ginger (Halle Berry). Agentúry Kingsman a Statesman musia spoločnými silami poraziť riadne šibnutú a pravdepodobne aj mimoriadne nebezpečnú potvoru menom Poppy (Julianne Moore). A pri tom opäť zachrániť celú Zem a väčšinu jej obyvateľov."/>
+
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/genre"/>
+
+                <TextView
+                    android:id="@+id/tv_genres"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="Romance/ Comedy"/>
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/countries"/>
+
+                <TextView
+                    android:id="@+id/tv_countries"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="Romance/ Comedy"/>
+
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/languages"/>
+
+                <TextView
+                    android:id="@+id/tv_languages"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="En/ Cz"/>
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/release_year"/>
+
+                <TextView
+                    android:id="@+id/tv_release_year"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="En/ Cz"/>
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/budget"/>
+
+                <TextView
+                    android:id="@+id/tv_budget"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="En/ Cz"/>
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/revenue"/>
+
+                <TextView
+                    android:id="@+id/tv_revenue"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="En/ Cz"/>
+
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/production_companies"/>
+
+
+
+                <TextView
+                    android:id="@+id/tv_production_companies"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="9dp"
+                    tools:text="En/ Cz"/>
+
+
+
+                <TextView
+                    android:id="@+id/tv_rating"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_horizontal"
+                    android:textSize="28sp"
+                    android:textColor="@color/primary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="9.6"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:layout_centerInParent="true"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/bt_imdb"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:background="@color/primary"
+                            android:text="@string/imdb"/>
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/bt_website"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:background="@color/primary"
+                            android:text="@string/website"/>
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</LinearLayout>
